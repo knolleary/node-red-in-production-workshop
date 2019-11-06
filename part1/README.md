@@ -1,10 +1,10 @@
 *Quick links :*
-[Home](/README.md) - [**Part 1**](../part1/README.md) - [Part 2](../part2/README.md) - [Part 3](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md) - [Part 6](../part6/README.md) - [Part 7](../part7/README.md)
+[Home](/README.md) - [**Part 1**](../part1/README.md) - [Part 2](../part2/README.md) - [Part 3](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md)
 ***
 
 # Part 1: Getting Started with Node-RED
 
-**Goal:** *Get a Node-RED application running locally against a CouchDB database.*
+**Goal:** *Get a Node-RED application running locally against a CouchDB database*
 
 ## Introduction
 
@@ -26,9 +26,11 @@ provided as the starting point.
 
 ## Steps
 
- - 1.1 Install Node-RED
-
-
+ - [1 - Install Node-RED](#1---install-node-red)
+ - [2 - Install CouchDB](#2---install-couchdb)
+ - [3 - Configure CouchDB](#3---configure-couchdb)
+ - [4 - Configure Node-RED](#4---configure-node-red)
+ - [5 - Clone the Node-RED Project](#5---clone-the-node-red-project)
 
 ## 1.1 - Install Node-RED
 
@@ -89,7 +91,7 @@ docker run -p 5984:5984 -d --name node-red-couchdb couchdb:latest
 The CouchDB project [provides downloads](https://couchdb.apache.org/) for a number
 of platforms and a [comprehensive install guide](http://docs.couchdb.org/en/stable/install/index.html). Chose the option most appropriate for your own machine.
 
-## 1.3 - Configuring CouchDB
+## 1.3 - Configure CouchDB
 
 Once you have CouchDB running locally, you need to create a database for the application.
 
@@ -100,7 +102,7 @@ curl -X PUT  http://localhost:5984/todos
 ```
 
 
-## 1.4 - Configuring Node-RED
+## 1.4 - Configure Node-RED
 
 For this workshop you need to modify some of the default runtime settings. These
 are all in the **settings file**. (`~/.node-red/settings.js`).
@@ -131,7 +133,7 @@ to pick-up these changes.
 Once restarted you will now access the editor at http://127.0.0.1:1880/admin/ where
 it will prompt you to create your first project, which you will do in the next step.
 
-## 1.5 - Setup Node-RED Project
+## 1.5 - Clone the Node-RED Project
 
 This workshop provides an example Node-RED project for you to use. This step shows
 how to clone the project into your Node-RED instance.
@@ -178,6 +180,26 @@ the application.
 You can check it is working by adding some ToDo items and then reload the page
 to check they were saved in CouchDB.
 
+## 1.5 - Update project settings
+
+The example project is configured to *not* encrypt its credentials file. This has
+been done so that anyone is able to clone the project to get started. But it is
+not a suitable configuration for a real project.
+
+This step shows how to update the project to start encrypting its credentials.
+
+1. In the Node-RED editor open the Project Settings dialog (`Projects -> Project Settings`)
+   and switch to the Settings tab.
+
+2. Click the `edit` button in the `Files` section and then click on the pencil
+   button next to the Encryption field.
+
+   <img src="images/project-settings.png" width="500px"/>
+
+3. Enter a new encryption key and click Save. Make a note of the key as you will need it later on.
+
+   <img src="images/project-settings-key.png" width="300px"/>
+
 ## Summary
 
 In this section of the workshop you have:
@@ -194,4 +216,4 @@ first setup some cloud resources in [Part 2](../part2/README.md).
 
 ***
 *Quick links :*
-[Home](/README.md) - [**Part 1**](../part1/README.md) - [Part 2](../part2/README.md) - [Part 3](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md) - [Part 6](../part6/README.md) - [Part 7](../part7/README.md)
+[Home](/README.md) - [**Part 1**](../part1/README.md) - [Part 2](../part2/README.md) - [Part 3](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md)
