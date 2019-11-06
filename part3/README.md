@@ -2,9 +2,9 @@
 [Home](/README.md) - [Part 1](../part1/README.md) - [Part 2](../part2/README.md) - [**Part 3**](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md)
 ***
 
-# Part 3: Getting Started with Node-RED
+# Part 3: Deploy you application to the IBM Cloud
 
-**Goal:** *Add the additional resources need to deploy the Node-RED project to the cloud*
+**Goal:** *Get your application running in the IBM Cloud*
 
 ## Introduction
 
@@ -19,9 +19,10 @@ This involves:
 
 ## Steps
 
- - [1 - Install Node-RED](#1---install-node-red)
-
-
+ - [1 - Update package.json](#31---update-packagejson)
+ - [2 - Add a settings.js file](#32---add-a-settingsjs-file)
+ - [3 - Add a manifest.yml file](#33---add-a-manifestyml-file)
+ - [4 - Push the application to the cloud](#34---push-the-application-to-the-cloud)
 
 ## 3.1 - Update package.json
 
@@ -154,7 +155,7 @@ of the URL you use to access it.
 
 
 
-## 3.4 Push the application to the cloud
+## 3.4 - Push the application to the cloud
 
 At this point you should have:
 
@@ -198,7 +199,7 @@ on.
 **However**, some further configuration is needed before it will run properly:
 
 1. you need to tell it the key for decrypting the credentials file using the `NODE_RED_CREDENTIAL_SECRET` environment variable
-2. it is still trying to use CouchDB on localhost - the application needs to be
+2. it is still configured to use CouchDB on localhost - the application needs to be
    updated to use a cloud-hosted CouchDB.
 
 
@@ -211,19 +212,22 @@ It will offer to restage your application at this point, to which you should say
 'yes'.
 
 The second item to address is which CouchDB instance it should be using. That
-will be addressed in the next part of the workshop.
+will be done in the next part of the workshop.
 
 ## Summary
 
 In this section of the workshop you have:
 
- - XXXXXXXXXX
- - XXXXXXXXXX
- - XXXXXXXXXX
+ - created the additional files needed to deploy it as a cloud application
+ - pushed it to the IBM Cloud
 
 ## Next Steps
 
-ZZZZZZZZZ
+The application needs to be updated to use a cloud-hosted database. The next
+part sets that up.
+
+Take a moment, reflect on how far you've come. Then make a start on [Part 4](../part4/README.md).
+
 
 ***
 *Quick links :*

@@ -4,7 +4,7 @@
 
 # Part 5: Setup a deployment pipeline to IBM Cloud
 
-**Goal:** **
+**Goal:** *Create a deployment pipeline use TravisCI to automatically deploy your application when pushing updated to a GitHub repository*
 
 ## Introduction
 

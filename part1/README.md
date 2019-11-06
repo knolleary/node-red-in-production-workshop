@@ -18,19 +18,13 @@ store the application data in a CouchDB database.
 Rather than build the application from scratch, an example Node-RED project is
 provided as the starting point.
 
-## Prerequisites
-
- - Node 10 or 12
- - (optional) Docker
- - GitHub account
-
 ## Steps
 
- - [1 - Install Node-RED](#1---install-node-red)
- - [2 - Install CouchDB](#2---install-couchdb)
- - [3 - Configure CouchDB](#3---configure-couchdb)
- - [4 - Configure Node-RED](#4---configure-node-red)
- - [5 - Clone the Node-RED Project](#5---clone-the-node-red-project)
+ - [1 - Install Node-RED](#11---install-node-red)
+ - [2 - Install CouchDB](#12---install-couchdb)
+ - [3 - Configure CouchDB](#13---configure-couchdb)
+ - [4 - Configure Node-RED](#14---configure-node-red)
+ - [5 - Clone the Node-RED Project](#15---clone-the-node-red-project)
 
 ## 1.1 - Install Node-RED
 

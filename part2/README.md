@@ -2,9 +2,9 @@
 [Home](/README.md) - [Part 1](../part1/README.md) - [**Part 2**](../part2/README.md) - [Part 3](../part3/README.md) - [Part 4](../part4/README.md) - [Part 5](../part5/README.md)
 ***
 
-# Part 2: Setting up your Cloud environment
+# Part 2: Getting Started with the IBM Cloud
 
-**Goal:** *Prepare the IBM Cloud resources for your application*
+**Goal:** *Create an IBM Cloud account and install the `ibmcloud` command-line tool*
 
 ## Introduction
 
@@ -13,9 +13,9 @@ environment setup for your application.
 
 ## Steps
 
- - [1 - Create an IBM Cloud account](#1---create-an-ibm-cloud-account)
- - [2 - Install IBM Cloud CLI](#2---install-ibm-cloud-cli)
- - [3 - Login to the IBM Cloud](#3---login-to-the-ibm-cloud)
+ - [1 - Create an IBM Cloud account](#21---create-an-ibm-cloud-account)
+ - [2 - Install IBM Cloud CLI](#22---install-ibm-cloud-cli)
+ - [3 - Login to the IBM Cloud](#23---login-to-the-ibm-cloud)
 
 ## 2.1 - Create an IBM Cloud account
 
@@ -43,21 +43,15 @@ to. Run the following command select a region (`us-south` or `eu-gb` for example
 
 
 
-
-
 ## Summary
 
-In this section of the workshop you have:
-
- - XXXXXXXXXX
- - XXXXXXXXXX
- - XXXXXXXXXX
+In this section of the workshop you have created an IBM Cloud account
+and installed the `ibmcloud` command-line tool.
 
 ## Next Steps
 
-ZZZZZZZZZ
-
-
+The next task is to add some additional resources to your project and get it
+deployed to the cloud. Head over to [Part 3](../part3/README.md).
 
 
 ***
