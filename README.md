@@ -26,7 +26,7 @@ You will also create:
 
 ***
 
-<img src="images/todo-web-app.png"><caption><i>The Todo Web App</caption>
+<img src="images/todo-web-app.png"><caption><i>The Todo Web App</i></caption>
 
 
 ## Workshop Parts
