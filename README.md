@@ -11,6 +11,8 @@ This workshop takes you through how to setup a Node-RED environment suitable for
 To complete this workshop, you will need:
 
  - node.js 10.x or 12.x.
+ - a [GitHub](https://github.com) account (the same result can be achieved
+    using GitLab, however the instructions included only cover GitHub)
 
 As part of the workshop you will be asked to install:
 
@@ -21,8 +23,8 @@ As part of the workshop you will be asked to install:
 You will also create:
 
  - an [IBM Cloud account](https://cloud.ibm.com/)
- - a [GitHub](https://github.com) account (the same result can be achieved
-    using GitLab, however the instructions included only cover GitHub)
+
+***
 
 <img src="images/todo-web-app.png"><caption><i>The Todo Web App</caption>
 
