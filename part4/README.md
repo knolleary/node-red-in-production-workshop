@@ -21,7 +21,7 @@ what they connect to.
 
  - [1 - Create a Cloudant Lite plan instance](#41---create-a-cloudant-lite-plan-instance)
  - [2 - Bind the Cloudant service to your application](#42---bind-the-cloudant-service-to-your-application)
- - [3 - Download the VCAP_SERVICES file](#43---download-the-vcapservices-file)
+ - [3 - Download the VCAP_SERVICES file](#43---download-the-vcap_services-file)
  - [4 - Use the credentials locally](#44---use-the-credentials-locally)
  - [5 - Update the flows to use the Cloudant service](#45---update-the-flows-to-use-the-cloudant-service)
  - [6 - Deploy the updates to IBM Cloud](#46---deploy-the-updates-to-ibm-cloud)
@@ -103,7 +103,7 @@ First we need to make the credentials available to your local Node-RED installat
 To use the credentials locally, you need to expose them in the same way as they
 are exposed in the cloud - by setting the `VCAP_SERVICES` environment variable.
 
-1. Edit your main Node-RED `settings.js` file (`/.node-red/settings.js`).
+1. Edit your main Node-RED `settings.js` file (`~/.node-red/settings.js`).
 
 2. Near the top you should see a commented-out line that loads the `fs` module. Uncomment
    that line and add the following (make sure you replace the name of the vcap services
@@ -152,8 +152,8 @@ service rather than directly connect to the local CouchDB instance.
    environment variable into this field when it creates the node.
 
 5. Confirm the changes by clicking the 'Done' button and proceed to change all
-   of the remaining blue Cloudant nodes in exactly the same way. There are eight (8)
-   in total to update.
+   of the remaining blue Cloudant nodes in exactly the same way. There are nine (9)
+   to update - eight in the main tab and one inside the 'Get ToDo' subflow.
 
 6. Once all of the nodes have been updated, click the Deploy button.
 

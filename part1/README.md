@@ -8,11 +8,11 @@
 
 ## Introduction
 
-This section of the workshop gets you started with an existing Node-RED application
+This section of the workshop gets you started with an existing [Node-RED project](https://github.com/knolleary/node-red-todo-app)
 that provides a simple To-Do list. It is based on the [TodoMVC](http://todomvc.com/)
 and [Todo-Backend](https://www.todobackend.com/) projects.
 
-The Node-RED flows implement the backend REST API used by the Todo webapp and
+The Node-RED flows implement the backend REST API used by the Todo web app and
 store the application data in a CouchDB database.
 
 Rather than build the application from scratch, an example Node-RED project is
@@ -141,7 +141,7 @@ how to clone the project into your Node-RED instance.
 4. On the `Clone a project` screen paste in the following URL into the `Git repository URL`
    field:
 
-         TODO: http://
+         https://github.com/knolleary/node-red-todo-app.git
 
    Leave the `Credentials encryption key` field blank
 

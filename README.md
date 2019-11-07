@@ -24,6 +24,9 @@ You will also create:
  - a [GitHub](https://github.com) account (the same result can be achieved
     using GitLab, however the instructions included only cover GitHub)
 
+<img src="images/todo-web-app.png"><caption><i>The Todo Web App</caption>
+
+
 ## Workshop Parts
 
 
