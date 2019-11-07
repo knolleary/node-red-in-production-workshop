@@ -19,6 +19,7 @@ As part of the workshop you will be asked to install:
  - [Node-RED 1.0.x](https://nodered.org/docs/getting-started/)
  - [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started)
  - a local CouchDB instance - either as a Docker image, or a local install.
+ - [Travis CLI](https://github.com/travis-ci/travis.rb#the-travis-client-) (*part 5 only*)
 
 You will also create:
 
@@ -52,7 +53,7 @@ The workshop is split into the following five parts:
 
 - [**Part 5**: Setup a deployment pipeline to IBM Cloud](part5/README.md)
 
-  *Create a deployment pipeline use TravisCI to automatically deploy your application when pushing updated to a GitHub repository*
+  *Create a deployment pipeline use TravisCI to automatically deploy your application when pushing updates to a GitHub repository*
 
 ***
 

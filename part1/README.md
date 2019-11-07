@@ -127,6 +127,32 @@ to pick-up these changes.
 Once restarted you will now access the editor at http://127.0.0.1:1880/admin/ where
 it will prompt you to create your first project, which you will do in the next step.
 
+## 1.5 - Fork the example Node-RED Project
+
+This workshop provides an example Node-RED project for you to use. Before cloning
+it into your local Node-RED you should first fork the project so you have your
+own copy of it to use.
+
+1. Open the example project at https://github.com/knolleary/node-red-todo-app
+
+2.  Click the fork button to create your own copy of the repository
+
+    <img src="images/fork-repo.png" width="300px">
+
+3. Make a note of the url for cloning your fork via https.
+
+    <img src="images/clone-url.png" width="300px">
+
+## 1.6 - Create a personal access token
+
+1. Open your GitHub Developer settings page to create a new Personal Access Token - https://github.com/settings/tokens
+
+2. Generate a new token with the `repo:public_repo` scope.
+
+3. Make a note of the token as you'll need to use it a couple of times through this
+   workshop.
+
+
 ## 1.5 - Clone the Node-RED Project
 
 This workshop provides an example Node-RED project for you to use. This step shows
@@ -135,15 +161,16 @@ how to clone the project into your Node-RED instance.
 1. Open the Node-RED editor - http://127.0.0.1:1880/admin/
 2. Click the `Clone Repository` button in the Projects Welcome screen. If you've already
    closed that screen, you can reopen it with `Projects -> New` from the main menu.
-3. Provide your username and email address - these are used when commiting changes
+3. Provide your username and email address - these are used when committing changes
    to the project. If your local git client is already configured it will pick
    those values.
-4. On the `Clone a project` screen paste in the following URL into the `Git repository URL`
-   field:
+4. On the `Clone a project` screen:
+   - enter the clone url for your repository into the `Git repository URL` field.
+   - enter your GitHub username and the personal access token you created in the
+     previous step
+   - leave the `Credentials encryption key` field blank
 
-         https://github.com/knolleary/node-red-todo-app.git
-
-   Leave the `Credentials encryption key` field blank
+    <img src="images/clone-dialog.png" width="300px"/>
 
 
 This will clone the repository into a new local project and start it running.
