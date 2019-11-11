@@ -23,7 +23,7 @@ As part of the workshop you will be asked to install:
 
 You will also create:
 
- - an [IBM Cloud account](https://cloud.ibm.com/)
+ - an [IBM Cloud account](https://ibm.biz/Bd2nay)
 
 ***
 
