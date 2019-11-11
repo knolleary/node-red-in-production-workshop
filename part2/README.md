@@ -19,7 +19,7 @@ environment setup for your application.
 
 ## 2.1 - Create an IBM Cloud account
 
-Follow [this link](https://ibm.biz/Bd2nay)* and sign-up for an IBM Cloud account. It's
+Follow [this link](https://ibm.biz/Bd2nay) and sign-up for an IBM Cloud account. It's
 free, doesn't require a credit card and lets you play with the services available
 in the catalog.
 
