@@ -25,6 +25,12 @@ You will also create:
 
  - an [IBM Cloud account](https://ibm.biz/Bd2nay)
 
+### Slides
+
+<script async class="speakerdeck-embed" data-id="116390f5729243759eb255e478695c97" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+https://speakerdeck.com/knolleary/node-red-in-production
+
 ***
 
 <img src="images/todo-web-app.png"><caption><i>The Todo Web App</i></caption>
