@@ -6,6 +6,8 @@
 
 This workshop takes you through how to setup a Node-RED environment suitable for creating cloud-native applications.
 
+Shortlink for this workshop: https://ibm.biz/NRWorkshop
+
 ### Prerequisites
 
 To complete this workshop, you will need:
@@ -27,9 +29,7 @@ You will also create:
 
 ### Slides
 
-<script async class="speakerdeck-embed" data-id="116390f5729243759eb255e478695c97" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-https://speakerdeck.com/knolleary/node-red-in-production
+The slides for this workshop are available here: https://speakerdeck.com/knolleary/node-red-in-production
 
 ***
 
